@@ -30,7 +30,7 @@ This tool automates the creation and management of CircleCI contexts and their e
 1. Clone this repository or download the script:
 
 ```bash
-git clone https://github.com/yourusername/circleci-context-manager.git
+git clone https://github.com/makarono/circleci-context-manager.git
 # or just download context.py
 ```
 
