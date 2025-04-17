@@ -1,0 +1,10 @@
+# contexts.yaml
+my-app-dev:
+  - API_KEY: "dev-secret-key-555"
+  - DATABASE_URL: "postgres://dev:password@host:5432/AA"
+  - DEBUG_MODE: True # Will be converted to string "True" by the script
+
+my-app-prod:
+  - API_KEY: "prod-very-secret-key-987"
+  - DATABASE_URL: "postgres://prod_user:prod_pass@prod_host:5432/prod_db"
+  - REPLICA_COUNT: 3 # Will be converted to string "3"
