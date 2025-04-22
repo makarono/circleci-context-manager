@@ -8,3 +8,13 @@ my-app-prod:
   - API_KEY: "prod-very-secret-key-987"
   - DATABASE_URL: "postgres://prod_user:prod_pass@prod_host:5432/prod_db"
   - REPLICA_COUNT: 3 # Will be converted to string "3"
+
+components-demo:
+  - AWS_ACCESS_KEY_ID: "sdsdsa"
+  - AWS_SECRET_ACCESS_KEY: "111"
+  - AWS_ACCOUNT_ID: "111"
+  - AWS_DEFAULT_REGION: "us-east-1"
+  - BITBUCKET_ACCESS_TOKEN_EMAIL: "ssss"
+  - BITBUCKET_ACCESS_TOKEN: "ssadas"
+  - GITHUB_PERSONAL_TOKEN: "sdfsdf"
+  - NPM_TOKEN: "sdfsdf"
